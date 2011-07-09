@@ -11,7 +11,16 @@ var Life = function(size) {
         
     }
     
+    
     return {
-        cells: cells
+        cells: cells,
+        
+        deadOrAlive: function() {
+            
+        },
+        /*
+         * Iterate over cells and move life one cycle forward
+         */
+        tick: function() {}
     };
 };

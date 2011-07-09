@@ -15,7 +15,7 @@ var LifeTest = TestCase("LifeTest", {
     },
 
     "test if cells array is populated": function() {
-        var SIZE = 1000;
+        var SIZE = 10;
         var life = new Life(SIZE);
 
         var cells = life.cells;
